@@ -1,0 +1,120 @@
+{
+    "class_profile": {
+        "strands": [
+            {
+                "strandId": "strand1",
+                "strand": "Letter Identification",
+                "workCovered": 70,
+                "students": [
+                    {
+                        "studentId": "student1",
+                        "name": "John Doe",
+                        "competence": "ME"
+                    },
+                    {
+                        "studentId": "student2",
+                        "name": "Jane Smith",
+                        "competence": "AE"
+                    }
+                ]
+            },
+            {
+                "strandId": "strand2",
+                "strand": "Letter Naming",
+                "workCovered": 65,
+                "students": [
+                    {
+                        "studentId": "student1",
+                        "name": "John Doe",
+                        "competence": "AE"
+                    },
+                    {
+                        "studentId": "student2",
+                        "name": "Jane Smith",
+                        "competence": "ME"
+                    }
+                ]
+            },
+            {
+                "strandId": "strand3",
+                "strand": "Letter Formation",
+                "workCovered": 45,
+                "students": [
+                    {
+                        "studentId": "student1",
+                        "name": "John Doe",
+                        "competence": "BE"
+                    },
+                    {
+                        "studentId": "student2",
+                        "name": "Jane Smith",
+                        "competence": "ME"
+                    }
+                ]
+            },
+            {
+                "strandId": "strand4",
+                "strand": "Phonemic Awareness",
+                "workCovered": 80,
+                "students": [
+                    {
+                        "studentId": "student1",
+                        "name": "John Doe",
+                        "competence": "EE"
+                    },
+                    {
+                        "studentId": "student2",
+                        "name": "Jane Smith",
+                        "competence": "AE"
+                    }
+                ]
+            }
+        ]
+    },
+    "students": [
+        {
+            "id": "student1",
+            "name": "John Doe",
+            "strands": {
+                "letterIdentification": {
+                    "competence": "ME",
+                    "progress": 75
+                },
+                "letterNaming": {
+                    "competence": "AE",
+                    "progress": 50
+                },
+                "letterFormation": {
+                    "competence": "BE",
+                    "progress": 30
+                },
+                "phonemicAwareness": {
+                    "competence": "EE",
+                    "progress": 90
+                }
+            }
+        },
+        {
+            "id": "student2",
+            "name": "Jane Smith",
+            "strands": {
+                "letterIdentification": {
+                    "competence": "AE",
+                    "progress": 60
+                },
+                "letterNaming": {
+                    "competence": "ME",
+                    "progress": 80
+                },
+                "letterFormation": {
+                    "competence": "ME",
+                    "progress": 75
+                },
+                "phonemicAwareness": {
+                    "competence": "AE",
+                    "progress": 55
+                }
+            }
+        }
+    ]
+}
